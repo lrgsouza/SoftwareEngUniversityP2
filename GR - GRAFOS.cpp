@@ -5,7 +5,7 @@ using namespace std;
 // Armazena os dados de cada aresta
 struct no
 {
-	int v; // vértice adjacente
+	int v; // vÃ©rtice adjacente
 	int peso; // peso da aresta
 };
 
@@ -27,15 +27,15 @@ void cria_aresta(list<no>adj[], int u, int v, int p, int orientado)
 
 int main()
 {
-	list<no> adj[10]; // lista de adjacências
-	int nVertices; // numero de vértices do grafo
-	int orientado; // 1:orientado 0:não orientado
+	list<no> adj[10]; // lista de adjacÃªncias
+	int nVertices; // numero de vÃ©rtices do grafo
+	int orientado; // 1:orientado 0:nÃ£o orientado
 	int u, v; // vertices de origem e destino de uma aresta
 	int peso; // peso da aresta (u,v)
 	int i; // contador
 	list<no>::iterator p; // iterador para varrer as listas
 
-	//lendo numero de vertices e se é orientado
+	//lendo numero de vertices e se Ã© orientado
 	cin >> nVertices >> orientado;
 
 	//lendo primeiros vertices e peso
